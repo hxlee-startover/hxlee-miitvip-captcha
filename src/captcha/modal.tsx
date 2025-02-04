@@ -492,7 +492,6 @@ export default defineComponent({
                     </div>
                     <div class={`${prefixCls}-panel`}>
                         {renderPanelAction()}
-                        {renderPanelCopyright()}
                     </div>
                 </div>
             )
