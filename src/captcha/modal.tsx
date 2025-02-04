@@ -588,16 +588,6 @@ export default defineComponent({
                         color={props.themeColor}>
                         <ReloadOutlined onClick={refreshCaptcha} />
                     </Tooltip>
-
-                    <Tooltip
-                        title="帮助反馈"
-                        autoAdjustOverflow={false}
-                        overlayClassName={`${prefixCls}-tooltip`}
-                        color={props.themeColor}>
-                        <a href={params.target} target="_blank">
-                            <QuestionCircleOutlined />
-                        </a>
-                    </Tooltip>
                 </div>
             )
         }
